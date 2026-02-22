@@ -58,7 +58,7 @@ final class WebManifestControllerTest extends KernelTestCase
                 'dbal' => ['url' => 'sqlite:///:memory:'],
                 'orm' => [
                     'auto_generate_proxy_classes' => true,
-                    'enable_native_lazy_objects' => true,
+                    'enable_native_lazy_objects' => \PHP_VERSION_ID >= 80400,
                     'mappings' => [
                         'Stub' => [
                             'type' => 'attribute',
