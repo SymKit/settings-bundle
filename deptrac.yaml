@@ -1,0 +1,82 @@
+deptrac:
+  paths:
+    - src/
+
+  layers:
+    - name: Contract
+      collectors:
+        - type: directory
+          value: src/Contract/.*
+
+    - name: Entity
+      collectors:
+        - type: directory
+          value: src/Entity/.*
+
+    - name: Controller
+      collectors:
+        - type: directory
+          value: src/Controller/.*
+
+    - name: Form
+      collectors:
+        - type: directory
+          value: src/Form/.*
+
+    - name: Provider
+      collectors:
+        - type: directory
+          value: src/Provider/.*
+
+    - name: Repository
+      collectors:
+        - type: directory
+          value: src/Repository/.*
+
+    - name: Settings
+      collectors:
+        - type: directory
+          value: src/Settings/.*
+
+    - name: Twig
+      collectors:
+        - type: directory
+          value: src/Twig/.*
+
+    - name: WebManifest
+      collectors:
+        - type: directory
+          value: src/WebManifest/.*
+
+    - name: EventListener
+      collectors:
+        - type: directory
+          value: src/EventListener/.*
+
+  ruleset:
+    Contract: []
+    Entity:
+      - Contract
+      - Repository
+    Controller:
+      - Contract
+      - Settings
+      - WebManifest
+      - Entity
+      - Form
+    Form:
+      - Contract
+      - Entity
+    Provider:
+      - Contract
+    Repository:
+      - Contract
+      - Entity
+    Settings:
+      - Contract
+    Twig:
+      - Contract
+    WebManifest:
+      - Contract
+    EventListener:
+      - Contract

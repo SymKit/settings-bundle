@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file source-language="en" target-language="fr" datatype="plaintext" original="SymkitSettingsBundle" date="2026-02-22T00:00:00Z">
+        <header/>
+        <body>
+            <trans-unit id="page.settings_title" resname="symkit_settings.page.settings_title">
+                <source>Settings</source>
+                <target>Paramètres</target>
+            </trans-unit>
+            <trans-unit id="page.settings_description" resname="symkit_settings.page.settings_description">
+                <source>Manage application settings.</source>
+                <target>Gérer les paramètres de l'application.</target>
+            </trans-unit>
+            <trans-unit id="default_website_name" resname="symkit_settings.default_website_name">
+                <source>My Website</source>
+                <target>Mon site</target>
+            </trans-unit>
+            <trans-unit id="form.section.general" resname="symkit_settings.form.section.general">
+                <source>General</source>
+                <target>Général</target>
+            </trans-unit>
+            <trans-unit id="form.section.general_description" resname="symkit_settings.form.section.general_description">
+                <source>Basic website information.</source>
+                <target>Informations de base du site web.</target>
+            </trans-unit>
+            <trans-unit id="form.section.logos" resname="symkit_settings.form.section.logos">
+                <source>Logos &amp; Social Sharing</source>
+                <target>Logos et partage social</target>
+            </trans-unit>
+            <trans-unit id="form.section.logos_description" resname="symkit_settings.form.section.logos_description">
+                <source>Brand assets and default social sharing image.</source>
+                <target>Identité visuelle et image de partage par défaut.</target>
+            </trans-unit>
+            <trans-unit id="form.section.social" resname="symkit_settings.form.section.social">
+                <source>Social Networks</source>
+                <target>Réseaux sociaux</target>
+            </trans-unit>
+            <trans-unit id="form.section.social_description" resname="symkit_settings.form.section.social_description">
+                <source>Links to your social profiles.</source>
+                <target>Liens vers vos profils sociaux.</target>
+            </trans-unit>
+            <trans-unit id="form.section.icons" resname="symkit_settings.form.section.icons">
+                <source>Icons (Favicon)</source>
+                <target>Icônes (Favicon)</target>
+            </trans-unit>
+            <trans-unit id="form.section.icons_description" resname="symkit_settings.form.section.icons_description">
+                <source>Technical icons for browsers and devices.</source>
+                <target>Icônes techniques pour navigateurs et appareils.</target>
+            </trans-unit>
+            <trans-unit id="form.field.website_name" resname="symkit_settings.form.field.website_name">
+                <source>Website Name</source>
+                <target>Nom du site</target>
+            </trans-unit>
+            <trans-unit id="form.help.website_name" resname="symkit_settings.form.help.website_name">
+                <source>The public name of your website.</source>
+                <target>Le nom public de votre site web.</target>
+            </trans-unit>
+            <trans-unit id="form.field.website_description" resname="symkit_settings.form.field.website_description">
+                <source>Website Description</source>
+                <target>Description du site</target>
+            </trans-unit>
+            <trans-unit id="form.help.website_description" resname="symkit_settings.form.help.website_description">
+                <source>A short description of your website for SEO and meta tags.</source>
+                <target>Une courte description pour le référencement et les balises meta.</target>
+            </trans-unit>
+            <trans-unit id="form.field.website_logo" resname="symkit_settings.form.field.website_logo">
+                <source>Website Logo</source>
+                <target>Logo du site</target>
+            </trans-unit>
+            <trans-unit id="form.help.website_logo" resname="symkit_settings.form.help.website_logo">
+                <source>Main logo used in the header and emails.</source>
+                <target>Logo principal utilisé dans l'en-tête et les e-mails.</target>
+            </trans-unit>
+            <trans-unit id="form.field.og_image" resname="symkit_settings.form.field.og_image">
+                <source>Default OG Image</source>
+                <target>Image OG par défaut</target>
+            </trans-unit>
+            <trans-unit id="form.help.og_image" resname="symkit_settings.form.help.og_image">
+                <source>Standard image shared on social networks when a page has no specific image.</source>
+                <target>Image partagée par défaut sur les réseaux sociaux.</target>
+            </trans-unit>
+            <trans-unit id="form.field.social_facebook" resname="symkit_settings.form.field.social_facebook">
+                <source>Facebook URL</source>
+                <target>URL Facebook</target>
+            </trans-unit>
+            <trans-unit id="form.help.social_facebook" resname="symkit_settings.form.help.social_facebook">
+                <source>Link to your Facebook page.</source>
+                <target>Lien vers votre page Facebook.</target>
+            </trans-unit>
+            <trans-unit id="form.field.social_instagram" resname="symkit_settings.form.field.social_instagram">
+                <source>Instagram URL</source>
+                <target>URL Instagram</target>
+            </trans-unit>
+            <trans-unit id="form.help.social_instagram" resname="symkit_settings.form.help.social_instagram">
+                <source>Link to your Instagram profile.</source>
+                <target>Lien vers votre profil Instagram.</target>
+            </trans-unit>
+            <trans-unit id="form.field.social_x" resname="symkit_settings.form.field.social_x">
+                <source>X (Twitter) URL</source>
+                <target>URL X (Twitter)</target>
+            </trans-unit>
+            <trans-unit id="form.help.social_x" resname="symkit_settings.form.help.social_x">
+                <source>Link to your X / Twitter profile.</source>
+                <target>Lien vers votre profil X / Twitter.</target>
+            </trans-unit>
+            <trans-unit id="form.field.social_github" resname="symkit_settings.form.field.social_github">
+                <source>GitHub URL</source>
+                <target>URL GitHub</target>
+            </trans-unit>
+            <trans-unit id="form.help.social_github" resname="symkit_settings.form.help.social_github">
+                <source>Link to your GitHub repository or organization.</source>
+                <target>Lien vers votre dépôt ou organisation GitHub.</target>
+            </trans-unit>
+            <trans-unit id="form.field.social_youtube" resname="symkit_settings.form.field.social_youtube">
+                <source>YouTube URL</source>
+                <target>URL YouTube</target>
+            </trans-unit>
+            <trans-unit id="form.help.social_youtube" resname="symkit_settings.form.help.social_youtube">
+                <source>Link to your YouTube channel.</source>
+                <target>Lien vers votre chaîne YouTube.</target>
+            </trans-unit>
+            <trans-unit id="form.field.social_linkedin" resname="symkit_settings.form.field.social_linkedin">
+                <source>LinkedIn URL</source>
+                <target>URL LinkedIn</target>
+            </trans-unit>
+            <trans-unit id="form.help.social_linkedin" resname="symkit_settings.form.help.social_linkedin">
+                <source>Link to your LinkedIn company or personal page.</source>
+                <target>Lien vers votre page entreprise ou personnelle LinkedIn.</target>
+            </trans-unit>
+            <trans-unit id="form.field.social_tiktok" resname="symkit_settings.form.field.social_tiktok">
+                <source>TikTok URL</source>
+                <target>URL TikTok</target>
+            </trans-unit>
+            <trans-unit id="form.help.social_tiktok" resname="symkit_settings.form.help.social_tiktok">
+                <source>Link to your TikTok profile.</source>
+                <target>Lien vers votre profil TikTok.</target>
+            </trans-unit>
+            <trans-unit id="form.field.favicon" resname="symkit_settings.form.field.favicon">
+                <source>Favicon (32x32)</source>
+                <target>Favicon (32x32)</target>
+            </trans-unit>
+            <trans-unit id="form.help.favicon" resname="symkit_settings.form.help.favicon">
+                <source>Standard favicon for browsers (PNG or ICO).</source>
+                <target>Favicon standard pour les navigateurs (PNG ou ICO).</target>
+            </trans-unit>
+            <trans-unit id="form.field.apple_touch_icon" resname="symkit_settings.form.field.apple_touch_icon">
+                <source>Apple Touch Icon (180x180)</source>
+                <target>Icône Apple Touch (180x180)</target>
+            </trans-unit>
+            <trans-unit id="form.help.apple_touch_icon" resname="symkit_settings.form.help.apple_touch_icon">
+                <source>Icon for iPhone and iPad home screen.</source>
+                <target>Icône pour l'écran d'accueil iPhone et iPad.</target>
+            </trans-unit>
+            <trans-unit id="form.field.android_icon_192" resname="symkit_settings.form.field.android_icon_192">
+                <source>Android Icon (192x192)</source>
+                <target>Icône Android (192x192)</target>
+            </trans-unit>
+            <trans-unit id="form.help.android_icon_192" resname="symkit_settings.form.help.android_icon_192">
+                <source>Icon for Android devices (Chrome manifest).</source>
+                <target>Icône pour appareils Android (manifeste Chrome).</target>
+            </trans-unit>
+            <trans-unit id="form.field.android_icon_512" resname="symkit_settings.form.field.android_icon_512">
+                <source>Android Icon (512x512)</source>
+                <target>Icône Android (512x512)</target>
+            </trans-unit>
+            <trans-unit id="form.help.android_icon_512" resname="symkit_settings.form.help.android_icon_512">
+                <source>Icon for Android devices (SplashScreen).</source>
+                <target>Icône pour appareils Android (SplashScreen).</target>
+            </trans-unit>
+            <trans-unit id="validation.favicon_mime" resname="symkit_settings.validation.favicon_mime">
+                <source>The favicon must be a PNG, ICO or SVG file.</source>
+                <target>Le favicon doit être un fichier PNG, ICO ou SVG.</target>
+            </trans-unit>
+            <trans-unit id="validation.apple_touch_icon_mime" resname="symkit_settings.validation.apple_touch_icon_mime">
+                <source>The Apple Touch Icon must be a PNG file.</source>
+                <target>L'icône Apple Touch doit être un fichier PNG.</target>
+            </trans-unit>
+            <trans-unit id="validation.android_icon_mime" resname="symkit_settings.validation.android_icon_mime">
+                <source>Android icons must be PNG files.</source>
+                <target>Les icônes Android doivent être des fichiers PNG.</target>
+            </trans-unit>
+            <trans-unit id="entity.to_string" resname="symkit_settings.entity.to_string">
+                <source>Settings</source>
+                <target>Paramètres</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

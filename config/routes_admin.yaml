@@ -1,0 +1,10 @@
+# Admin routes for Symkit Settings Bundle.
+# In your app config/routes.yaml, import only when admin.enabled is true:
+#   symkit_settings_admin:
+#     resource: '@SymkitSettingsBundle/config/routes_admin.yaml'
+#     prefix: '/%symkit_settings.admin.route_prefix%'
+
+admin_settings_index:
+    path: /settings
+    name: admin_settings_index
+    controller: Symkit\SettingsBundle\Controller\Admin\SettingsController::__invoke

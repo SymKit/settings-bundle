@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file source-language="en" target-language="en" datatype="plaintext" original="SymkitSettingsBundle" date="2026-02-22T00:00:00Z">
+        <header/>
+        <body>
+            <trans-unit id="page.settings_title">
+                <source>Settings</source>
+                <target>Settings</target>
+            </trans-unit>
+            <trans-unit id="page.settings_description">
+                <source>Manage application settings.</source>
+                <target>Manage application settings.</target>
+            </trans-unit>
+            <trans-unit id="default_website_name" resname="default_website_name">
+                <source>My Website</source>
+                <target>My Website</target>
+            </trans-unit>
+            <trans-unit id="form.section.general" resname="form.section.general">
+                <source>General</source>
+                <target>General</target>
+            </trans-unit>
+            <trans-unit id="form.section.general_description" resname="form.section.general_description">
+                <source>Basic website information.</source>
+                <target>Basic website information.</target>
+            </trans-unit>
+            <trans-unit id="form.section.logos" resname="form.section.logos">
+                <source>Logos &amp; Social Sharing</source>
+                <target>Logos &amp; Social Sharing</target>
+            </trans-unit>
+            <trans-unit id="form.section.logos_description" resname="form.section.logos_description">
+                <source>Brand assets and default social sharing image.</source>
+                <target>Brand assets and default social sharing image.</target>
+            </trans-unit>
+            <trans-unit id="form.section.social" resname="form.section.social">
+                <source>Social Networks</source>
+                <target>Social Networks</target>
+            </trans-unit>
+            <trans-unit id="form.section.social_description" resname="form.section.social_description">
+                <source>Links to your social profiles.</source>
+                <target>Links to your social profiles.</target>
+            </trans-unit>
+            <trans-unit id="form.section.icons" resname="form.section.icons">
+                <source>Icons (Favicon)</source>
+                <target>Icons (Favicon)</target>
+            </trans-unit>
+            <trans-unit id="form.section.icons_description" resname="form.section.icons_description">
+                <source>Technical icons for browsers and devices.</source>
+                <target>Technical icons for browsers and devices.</target>
+            </trans-unit>
+            <trans-unit id="form.field.website_name" resname="form.field.website_name">
+                <source>Website Name</source>
+                <target>Website Name</target>
+            </trans-unit>
+            <trans-unit id="form.help.website_name" resname="form.help.website_name">
+                <source>The public name of your website.</source>
+                <target>The public name of your website.</target>
+            </trans-unit>
+            <trans-unit id="form.field.website_description" resname="form.field.website_description">
+                <source>Website Description</source>
+                <target>Website Description</target>
+            </trans-unit>
+            <trans-unit id="form.help.website_description" resname="form.help.website_description">
+                <source>A short description of your website for SEO and meta tags.</source>
+                <target>A short description of your website for SEO and meta tags.</target>
+            </trans-unit>
+            <trans-unit id="form.field.website_logo" resname="form.field.website_logo">
+                <source>Website Logo</source>
+                <target>Website Logo</target>
+            </trans-unit>
+            <trans-unit id="form.help.website_logo" resname="form.help.website_logo">
+                <source>Main logo used in the header and emails.</source>
+                <target>Main logo used in the header and emails.</target>
+            </trans-unit>
+            <trans-unit id="form.field.og_image" resname="form.field.og_image">
+                <source>Default OG Image</source>
+                <target>Default OG Image</target>
+            </trans-unit>
+            <trans-unit id="form.help.og_image" resname="form.help.og_image">
+                <source>Standard image shared on social networks when a page has no specific image.</source>
+                <target>Standard image shared on social networks when a page has no specific image.</target>
+            </trans-unit>
+            <trans-unit id="form.field.social_facebook" resname="form.field.social_facebook">
+                <source>Facebook URL</source>
+                <target>Facebook URL</target>
+            </trans-unit>
+            <trans-unit id="form.help.social_facebook" resname="form.help.social_facebook">
+                <source>Link to your Facebook page.</source>
+                <target>Link to your Facebook page.</target>
+            </trans-unit>
+            <trans-unit id="form.field.social_instagram" resname="form.field.social_instagram">
+                <source>Instagram URL</source>
+                <target>Instagram URL</target>
+            </trans-unit>
+            <trans-unit id="form.help.social_instagram" resname="form.help.social_instagram">
+                <source>Link to your Instagram profile.</source>
+                <target>Link to your Instagram profile.</target>
+            </trans-unit>
+            <trans-unit id="form.field.social_x" resname="form.field.social_x">
+                <source>X (Twitter) URL</source>
+                <target>X (Twitter) URL</target>
+            </trans-unit>
+            <trans-unit id="form.help.social_x" resname="form.help.social_x">
+                <source>Link to your X / Twitter profile.</source>
+                <target>Link to your X / Twitter profile.</target>
+            </trans-unit>
+            <trans-unit id="form.field.social_github" resname="form.field.social_github">
+                <source>GitHub URL</source>
+                <target>GitHub URL</target>
+            </trans-unit>
+            <trans-unit id="form.help.social_github" resname="form.help.social_github">
+                <source>Link to your GitHub repository or organization.</source>
+                <target>Link to your GitHub repository or organization.</target>
+            </trans-unit>
+            <trans-unit id="form.field.social_youtube" resname="form.field.social_youtube">
+                <source>YouTube URL</source>
+                <target>YouTube URL</target>
+            </trans-unit>
+            <trans-unit id="form.help.social_youtube" resname="form.help.social_youtube">
+                <source>Link to your YouTube channel.</source>
+                <target>Link to your YouTube channel.</target>
+            </trans-unit>
+            <trans-unit id="form.field.social_linkedin" resname="form.field.social_linkedin">
+                <source>LinkedIn URL</source>
+                <target>LinkedIn URL</target>
+            </trans-unit>
+            <trans-unit id="form.help.social_linkedin" resname="form.help.social_linkedin">
+                <source>Link to your LinkedIn company or personal page.</source>
+                <target>Link to your LinkedIn company or personal page.</target>
+            </trans-unit>
+            <trans-unit id="form.field.social_tiktok" resname="form.field.social_tiktok">
+                <source>TikTok URL</source>
+                <target>TikTok URL</target>
+            </trans-unit>
+            <trans-unit id="form.help.social_tiktok" resname="form.help.social_tiktok">
+                <source>Link to your TikTok profile.</source>
+                <target>Link to your TikTok profile.</target>
+            </trans-unit>
+            <trans-unit id="form.field.favicon" resname="form.field.favicon">
+                <source>Favicon (32x32)</source>
+                <target>Favicon (32x32)</target>
+            </trans-unit>
+            <trans-unit id="form.help.favicon" resname="form.help.favicon">
+                <source>Standard favicon for browsers (PNG or ICO).</source>
+                <target>Standard favicon for browsers (PNG or ICO).</target>
+            </trans-unit>
+            <trans-unit id="form.field.apple_touch_icon" resname="form.field.apple_touch_icon">
+                <source>Apple Touch Icon (180x180)</source>
+                <target>Apple Touch Icon (180x180)</target>
+            </trans-unit>
+            <trans-unit id="form.help.apple_touch_icon" resname="form.help.apple_touch_icon">
+                <source>Icon for iPhone and iPad home screen.</source>
+                <target>Icon for iPhone and iPad home screen.</target>
+            </trans-unit>
+            <trans-unit id="form.field.android_icon_192" resname="form.field.android_icon_192">
+                <source>Android Icon (192x192)</source>
+                <target>Android Icon (192x192)</target>
+            </trans-unit>
+            <trans-unit id="form.help.android_icon_192" resname="form.help.android_icon_192">
+                <source>Icon for Android devices (Chrome manifest).</source>
+                <target>Icon for Android devices (Chrome manifest).</target>
+            </trans-unit>
+            <trans-unit id="form.field.android_icon_512" resname="form.field.android_icon_512">
+                <source>Android Icon (512x512)</source>
+                <target>Android Icon (512x512)</target>
+            </trans-unit>
+            <trans-unit id="form.help.android_icon_512" resname="form.help.android_icon_512">
+                <source>Icon for Android devices (SplashScreen).</source>
+                <target>Icon for Android devices (SplashScreen).</target>
+            </trans-unit>
+            <trans-unit id="validation.favicon_mime" resname="validation.favicon_mime">
+                <source>The favicon must be a PNG, ICO or SVG file.</source>
+                <target>The favicon must be a PNG, ICO or SVG file.</target>
+            </trans-unit>
+            <trans-unit id="validation.apple_touch_icon_mime" resname="validation.apple_touch_icon_mime">
+                <source>The Apple Touch Icon must be a PNG file.</source>
+                <target>The Apple Touch Icon must be a PNG file.</target>
+            </trans-unit>
+            <trans-unit id="validation.android_icon_mime" resname="validation.android_icon_mime">
+                <source>Android icons must be PNG files.</source>
+                <target>Android icons must be PNG files.</target>
+            </trans-unit>
+            <trans-unit id="entity.to_string" resname="entity.to_string">
+                <source>Settings</source>
+                <target>Settings</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

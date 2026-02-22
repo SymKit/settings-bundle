@@ -1,0 +1,47 @@
+{
+    "name": "symkit/settings-bundle",
+    "type": "symfony-bundle",
+    "description": "A Symfony bundle for managing application-wide settings with a sectioned UI, automatic cache invalidation, and WebManifest generation.",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Symkit\\SettingsBundle\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Symkit\\SettingsBundle\\Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "php": ">=8.2",
+        "symfony/framework-bundle": "^7.0 || ^8.0",
+        "symkit/crud-bundle": "~0.0.1",
+        "symkit/form-bundle": "~0.0.1",
+        "symkit/media-bundle": "~0.0.1",
+        "symkit/metadata-bundle": "~0.0.1",
+        "symkit/menu-bundle": "~0.0.1"
+    },
+    "require-dev": {
+        "doctrine/doctrine-bundle": "^2.0",
+        "doctrine/orm": "^3.6",
+        "deptrac/deptrac": "^2.0",
+        "friendsofphp/php-cs-fixer": "^3.0",
+        "infection/infection": "^0.29",
+        "nyholm/symfony-bundle-test": "^3.0",
+        "phpro/grumphp": "^2.0",
+        "phpstan/phpstan": "^2.0",
+        "phpunit/phpunit": "^11.0",
+        "symfony/var-exporter": "^8.0",
+        "symfony/browser-kit": "^7.0 || ^8.0",
+        "symfony/css-selector": "^7.0 || ^8.0",
+        "symkit/bundle-ai-kit": "~0.0.1"
+    },
+    "config": {
+        "allow-plugins": {
+            "infection/extension-installer": true,
+            "phpro/grumphp": true,
+            "symkit/bundle-ai-kit": true
+        }
+    }
+}

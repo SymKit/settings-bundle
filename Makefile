@@ -1,0 +1,33 @@
+.PHONY: cs-fix cs-check phpstan test deptrac lint infection security-check quality ci install-hooks
+
+cs-fix:
+	vendor/bin/php-cs-fixer fix --config=.php-cs-fixer.dist.php --allow-risky=yes
+
+cs-check:
+	vendor/bin/php-cs-fixer fix --config=.php-cs-fixer.dist.php --allow-risky=yes --dry-run --diff
+
+phpstan:
+	vendor/bin/phpstan analyse --configuration=phpstan.neon.dist --memory-limit=-1
+
+test:
+	vendor/bin/phpunit --configuration=phpunit.xml.dist
+
+deptrac:
+	vendor/bin/deptrac analyse --config-file=deptrac.yaml
+
+lint:
+	composer validate --strict
+
+infection:
+	vendor/bin/infection --configuration=infection.json5 --only-covered --threads=max --min-msi=65 --min-covered-msi=65
+
+security-check:
+	composer audit --abandoned=report
+
+quality: cs-check phpstan deptrac lint test infection
+
+ci: security-check quality
+
+install-hooks:
+	cp scripts/git-hooks/commit-msg .git/hooks/commit-msg
+	chmod +x .git/hooks/commit-msg

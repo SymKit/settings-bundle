@@ -1,0 +1,10 @@
+# Webmanifest route for Symkit Settings Bundle.
+# In your app config/routes.yaml, import only when webmanifest.enabled is true:
+#   symkit_settings_webmanifest:
+#     resource: '@SymkitSettingsBundle/config/routes_webmanifest.yaml'
+
+app_webmanifest:
+    path: /site.webmanifest
+    name: app_webmanifest
+    methods: [GET]
+    controller: Symkit\SettingsBundle\Controller\Api\WebManifestController::__invoke

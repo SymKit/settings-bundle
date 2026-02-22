@@ -1,0 +1,5 @@
+#!/bin/sh
+# Strip Co-authored-by lines from commit message (e.g. added by IDE).
+tmp=$(mktemp)
+grep -v -E '^[[:space:]]*Co-authored-by:' "$1" > "$tmp"
+mv "$tmp" "$1"
