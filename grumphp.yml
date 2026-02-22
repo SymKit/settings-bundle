@@ -1,5 +1,8 @@
 grumphp:
     tasks:
+        make:
+            task: deptrac
+            triggered_by: [php]
         phpstan:
             configuration: phpstan.neon.dist
             memory_limit: 512M

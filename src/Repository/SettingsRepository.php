@@ -20,7 +20,7 @@ final class SettingsRepository extends ServiceEntityRepository implements Settin
      */
     public function __construct(ManagerRegistry $registry, string $entityClass = Settings::class)
     {
-        // @phpstan-ignore-next-line argument.type (config allows custom entity implementing SettingsInterface)
+        /* @phpstan-ignore-next-line argument.type Parent expects Entity::class; config allows custom entity implementing SettingsInterface */
         parent::__construct($registry, $entityClass);
     }
 

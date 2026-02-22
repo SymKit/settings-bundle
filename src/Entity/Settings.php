@@ -9,15 +9,15 @@ use Symfony\Component\Validator\Constraints as Assert;
 use Symfony\Component\Validator\Context\ExecutionContextInterface;
 use Symkit\MediaBundle\Entity\Media;
 use Symkit\SettingsBundle\Contract\SettingsInterface;
-use Symkit\SettingsBundle\Repository\SettingsRepository;
 
-#[ORM\Entity(repositoryClass: SettingsRepository::class)]
+#[ORM\Entity(repositoryClass: 'Symkit\SettingsBundle\Repository\SettingsRepository')]
 class Settings implements SettingsInterface
 {
     #[ORM\Id]
     #[ORM\GeneratedValue]
     #[ORM\Column]
-    private ?int $id = null; // @phpstan-ignore-line property.unusedType (id set by Doctrine ORM)
+    /** @phpstan-ignore property.unusedType (Doctrine hydrates id; nullable for non-persisted entity) */
+    private ?int $id = null;
 
     #[ORM\Column(length: 255)]
     #[Assert\NotBlank(groups: ['create', 'edit'])]

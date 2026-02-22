@@ -10,7 +10,7 @@ namespace Symkit\SettingsBundle\Contract;
 interface WebManifestGeneratorInterface
 {
     /**
-     * @return array<string, mixed>
+     * @return array<string, mixed> JSON-compatible manifest (keys: name, short_name, icons, etc.; values: scalar or array)
      */
     public function generate(): array;
 }
