@@ -12,12 +12,11 @@ use Symfony\Component\Form\FormBuilderInterface;
 use Symfony\Component\OptionsResolver\OptionsResolver;
 use Symkit\FormBundle\Form\Type\FormSectionType;
 use Symkit\MediaBundle\Form\MediaType;
-use Symkit\SettingsBundle\Entity\Settings;
 
 final class SettingsType extends AbstractType
 {
     public function __construct(
-        private readonly string $entityClass = Settings::class,
+        private readonly string $entityClass,
     ) {
     }
 

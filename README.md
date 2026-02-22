@@ -155,7 +155,7 @@ The bundle uses the domain **SymkitSettingsBundle** and ships with `translations
 
 ## Contributing
 
-Run `make quality` before committing. To install the git hook that strips `Co-authored-by:` lines from commit messages (e.g. if your IDE adds them), run `make install-hooks`.
+Run `make quality` before committing.
 
 ## License
 

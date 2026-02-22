@@ -14,7 +14,6 @@ use Symkit\MetadataBundle\Attribute\Breadcrumb;
 use Symkit\MetadataBundle\Attribute\Seo;
 use Symkit\MetadataBundle\Contract\PageContextBuilderInterface;
 use Symkit\SettingsBundle\Contract\SettingsManagerInterface;
-use Symkit\SettingsBundle\Entity\Settings;
 use Symkit\SettingsBundle\Form\SettingsType;
 
 #[Seo(title: 'Settings', description: 'Manage application settings.')]
@@ -25,7 +24,7 @@ final class SettingsController extends AbstractCrudController
         CrudPersistenceManagerInterface $persistenceManager,
         PageContextBuilderInterface $pageContextBuilder,
         private readonly SettingsManagerInterface $settingsManager,
-        private readonly string $entityClass = Settings::class,
+        private readonly string $entityClass,
     ) {
         parent::__construct($persistenceManager, $pageContextBuilder);
     }
