@@ -48,7 +48,7 @@ Do not add Co-authored-by, Signed-off-by from the AI, or `git commit --trailer`.
 
 ## GrumPHP
 
-Pre-commit hooks should mirror CI (except security): phpstan, phpcsfixer, phpunit, infection. Same thresholds as Makefile (e.g. infection `min_covered_msi: 65`). Deptrac may be omitted from GrumPHP when it causes autoload conflicts (e.g. ComposerAutoloader redeclare when run in the same process); in that case run `make deptrac` before push. CI always runs deptrac via `make quality`.
+Pre-commit hooks must mirror CI (except security): phpstan, phpcsfixer, phpunit, deptrac, infection. Same thresholds as Makefile (e.g. infection `min_covered_msi: 65`). This way a commit that would fail CI (e.g. 0% MSI) is blocked locally.
 Note: `composer_audit` is NOT a valid GrumPHP task — use `make security-check` separately.
 
 ## Composer allow-plugins
@@ -153,6 +153,9 @@ phpunit.xml
 phpstan.neon
 config/reference.php
 *.log
+.cursor/
+.agent/
+.claude/
 ```
 
 ## Dependencies
